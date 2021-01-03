@@ -10,14 +10,14 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat";
-  font-weight: bold
+  font-weight: bold;
 }
 
 p {
   color: #8f8f8f;
 }
 
-/* Headings */
+/* #region Headings */
 
 .big-heading {
   font-family: "Montserrat";
@@ -30,25 +30,25 @@ p {
   font-size: 3rem;
   line-height: 1.5;
 }
-
-/* Containers */
+/* #endregion */
+/* #region Containers */
 
 .container-fluid {
   padding: 7% 15%;
 }
-
-/* Sections */
+/* #endregion */
+/* #region Sections */
 
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #ef8172;
   color: #fff;
 }
 
 .white-section {
   background-color: #fff;
 }
-
-/* Navigation Bar */
+/* #endregion */
+/* #region Navigation Bar */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -69,14 +69,14 @@ p {
   font-family: "Montserrat";
   font-weight: 400;
 }
-
-/* Buttons */
+/* #endregion */
+/* #region Buttons */
 
 .download-button {
   margin: 5% 3% 5% 0;
 }
-
-/* Title Section */
+/* #endregion */
+/* #region Title */
 
 #title {
   background-color: #ff4c68;
@@ -88,15 +88,14 @@ p {
   padding: 3% 15% 7%;
 }
 
-/* Title Image */
-
 .title-image {
-    transform: rotate(25deg);
-    position: absolute;
-    right: 25%;
-  }
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
 
-/* Features Section */
+/* #endregion */
+/* #region Features  */
 
 #features {
   position: relative;
@@ -118,12 +117,8 @@ p {
 .icon:hover {
   color: #ff4c68;
 }
-
-/* Testimonial Section */
-
-#testimonials {
-  background-color: #ef8172;
-}
+/* #endregion */
+/* #region Testimonial  */
 
 .testimonial-text {
   font-size: 3rem;
@@ -136,8 +131,11 @@ p {
   margin: 20px;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 #press {
-  background-color: #ef8172;
   padding-bottom: 3%;
 }
 
@@ -145,8 +143,8 @@ p {
   width: 15%;
   margin: 20px 20px 50px;
 }
-
-/* Pricing Section */
+/* #endregion */
+/* #region Pricing  */
 
 #pricing {
   padding: 100px;
@@ -160,10 +158,10 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
-
-/* CTA Section */
-
-/* Footer Section */
+/* #endregion */
+/* #region CTA  */
+/* #endregion */
+/* #region Footer  */
 
 .social-icon {
   margin: 20px 10px;
@@ -179,3 +177,4 @@ p {
     transform: rotate(0);
   }
 }
+/* #endregion */
